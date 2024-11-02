@@ -11,7 +11,7 @@ public class FoodDeliveryAppApplication {
 		SpringApplication.run(FoodDeliveryAppApplication.class, args);
 	}
 
-	@GetMapping("/example")
+	@GetMapping("/getUsers")
 	public String example() {
 		return "Hello, World!";
 	}
